@@ -1,0 +1,25 @@
+{
+  "name": "example",
+  "version": "0.0.1",
+  "keywords": "gulpconfig",
+  "author": "ClanMax",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ClanMax/gulp-config.git"
+  },
+  "dependencies": {
+    "autoprefixer": "^6.5.4",
+    "cssnano": "^3.9.1",
+    "gulp": "^3.9.1",
+    "gulp-connect": "^5.0.0",
+    "gulp-imagemin": "^3.1.1",
+    "gulp-postcss": "^6.2.0",
+    "gulp-purifycss": "^0.2.0",
+    "gulp-rimraf": "^0.2.1",
+    "imagemin-pngquant": "^5.0.0",
+    "postcss": "^5.2.6",
+    "postcss-assets": "^4.1.0",
+    "postcss-nested": "^1.0.0",
+    "postcss-short": "^3.0.1"
+  }
+}
