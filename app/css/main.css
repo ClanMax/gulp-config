@@ -1,0 +1,9 @@
+.block1 {
+    display: flex;
+    &_discription {
+        display: block;
+    }
+    &_bigpenis {
+        position: absolute;
+    }
+}
