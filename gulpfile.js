@@ -3,6 +3,7 @@ var gulp = require('gulp'),
     nested = require('postcss-nested'),
     short = require('postcss-short'),
     connect = require('gulp-connect'),
+    pxtorem = require('postcss-pxtorem'),
     rimraf = require('gulp-rimraf'),
     autoprefixer = require('autoprefixer');
 
@@ -17,6 +18,7 @@ gulp.task('css', function () {
         autoprefixer({browsers: ['last 5 version']}),
         short(),
         nested(),
+	pxtorem({replace: true})
     ];
     return gulp.src('app/css/*.css')
         .pipe(postcss(processors))

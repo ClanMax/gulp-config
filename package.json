@@ -20,6 +20,7 @@
     "postcss": "^5.2.6",
     "postcss-assets": "^4.1.0",
     "postcss-nested": "^1.0.0",
+    "postcss-pxtorem": "^3.3.1",
     "postcss-short": "^3.0.1"
   }
 }
