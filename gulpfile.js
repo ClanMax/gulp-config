@@ -87,6 +87,7 @@ gulp.task('cssBuild', function() {
         autoprefixer({browsers: ['last 5 version']}),
         short(),
         nested(),
+	pxtorem({replace: true}),
         cssnano()
     ];
     return gulp.src('app/css/*.css')
